@@ -490,7 +490,7 @@ public class MessengerPlatformCallbackHandler {
             final NotificationType notificationType = NotificationType.REGULAR;
             final String metadata = "DEVELOPER_DEFINED_METADATA";
 
-            this.sendClient.sendTextMessage(recipient, notificationType, "Hi, Navila", metadata);
+            this.sendClient.sendTextMessage(recipient, notificationType, "Hi, buddy. What's Up", metadata);
         } catch (MessengerApiException | MessengerIOException e) {
             handleSendException(e);
         }
